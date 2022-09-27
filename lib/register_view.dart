@@ -42,7 +42,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 Image.asset(
                   'assets/logo.png',
                   width: 99,
-                  height: 4,
+                  height: 99,
                 )
               ],
             ),
