@@ -33,21 +33,21 @@ class _RegisterPageState extends State<RegisterPage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'APP Flutter\nRegister',
+                  'REGISTER',
                   style: heading2.copyWith(color: textBlack),
                 ),
                 SizedBox(
                   height: 20,
                 ),
                 Image.asset(
-                  'assets/Group 47.png',
-                  width: 99,
-                  height: 99,
+                  'assets/app.png',
+                  width: 150,
+                  height: 150,
                 )
               ],
             ),
             SizedBox(
-              height: 48,
+              height: 30,
             ),
             Form(
                 child: Column(
@@ -65,7 +65,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   ),
                 ),
                 SizedBox(
-                  height: 32,
+                  height: 10,
                 ),
                 Container(
                   decoration: BoxDecoration(
@@ -89,7 +89,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   ),
                 ),
                 SizedBox(
-                  height: 32,
+                  height: 10,
                 ),
                 Container(
                   decoration: BoxDecoration(
@@ -119,7 +119,7 @@ class _RegisterPageState extends State<RegisterPage> {
               ],
             )),
             SizedBox(
-              height: 32,
+              height: 10,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
@@ -152,7 +152,7 @@ class _RegisterPageState extends State<RegisterPage> {
               textColor: Colors.white,
             ),
             SizedBox(
-              height: 50,
+              height: 30,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,

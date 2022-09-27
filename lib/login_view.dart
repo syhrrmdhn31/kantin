@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:canteen/register_view.dart';
@@ -34,21 +36,21 @@ class _LoginPageState extends State<LoginPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'APP Flutter\nLogin',
+                    'LOGIN',
                     style: heading2.copyWith(color: textBlack),
                   ),
                   SizedBox(
                     height: 20,
                   ),
                   Image.asset(
-                    'assets/Group 47.png',
-                    width: 99,
-                    height: 99,
+                    'app.png',
+                    width: 150,
+                    height: 150,
                   )
                 ],
               ),
               SizedBox(
-                height: 48,
+                height: 30,
               ),
               Form(
                   child: Column(
@@ -66,7 +68,7 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ),
                   SizedBox(
-                    height: 32,
+                    height: 10,
                   ),
                   Container(
                     decoration: BoxDecoration(
@@ -92,7 +94,7 @@ class _LoginPageState extends State<LoginPage> {
                 ],
               )),
               SizedBox(
-                height: 32,
+                height: 10,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.start,
@@ -108,7 +110,7 @@ class _LoginPageState extends State<LoginPage> {
                 ],
               ),
               SizedBox(
-                height: 32,
+                height: 82,
               ),
               CustomPrimaryButton(
                 buttonColor: primaryBlue,
