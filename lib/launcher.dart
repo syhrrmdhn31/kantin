@@ -16,7 +16,7 @@ class _LauncherPageState extends State<LauncherPage> {
   }
 
   startLaunching() async {
-    var duration = const Duration(seconds: 10);
+    var duration = const Duration(seconds: 5);
     return new Timer(duration, () {
       Navigator.of(context).pushReplacement(new MaterialPageRoute(builder: (_) {
         return new LandingPage();
@@ -54,7 +54,7 @@ class _LauncherPageState extends State<LauncherPage> {
               child: new Image.asset(
                 "assets/logo-kantin.png",
                 height: 70.0,
-                width: 200.0,
+                width: 70.0,
               ),
             ),
           ],
